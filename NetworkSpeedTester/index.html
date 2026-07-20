@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Speed Tester</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🌐 Network Speed Tester</h1>
+
+        <div class="results">
+            <div class="card">
+                <h2>⬇ Download</h2>
+                <p id="download">0.00 Mbps</p>
+            </div>
+
+            <div class="card">
+                <h2>⬆ Upload</h2>
+                <p id="upload">0.00 Mbps</p>
+            </div>
+
+            <div class="card">
+                <h2>📶 Ping</h2>
+                <p id="ping">-- ms</p>
+            </div>
+        </div>
+
+        <button id="startTest">
+            Start Test
+        </button>
+
+        <canvas id="speedChart"></canvas>
+
+        <div class="info">
+            <h3>Connection Information</h3>
+            <p>Public IP: <span id="ip">Loading...</span></p>
+            <p>ISP: <span id="isp">Loading...</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
