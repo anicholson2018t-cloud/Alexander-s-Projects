@@ -30,7 +30,7 @@ NetworkSpeedTester/
 
 ## 🚀 How To Use
 
-1. Download or clone this repository.
+1. Download or clone these files above.
 2. Open `index.html` in a browser.
 3. Press **Start Test**.
 4. View your network results.
